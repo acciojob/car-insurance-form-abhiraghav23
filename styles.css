@@ -1,2 +1,12 @@
+form{
+	margin:20px;
+	padding:20px;
+}
+input{
+	margin:10px;
+}
+select{
+	margin:10px;
+}
 
 /* Your CSS Code here. */

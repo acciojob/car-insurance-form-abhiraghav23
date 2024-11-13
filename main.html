@@ -6,7 +6,46 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<form action="" method="post">
+  
+  <label for="name">Name</label>
+  <input type="text" id="name" name="" required ><br>
+
+  <label for="email">Email</label>
+  <input type="email" name="" id="email" required ><br>
+
+  <label for="gender" required>Gender</label>
+  <input type="radio" name="gender" id="gender_m"  required >
+  <label for="gender">Male</label>
+
+ 
+  <input type="radio" name="gender" id="gender_f" required>
+  <label for="gender_f">Female</label> </br>
+								  
+
+  <label for="carbrand">Carbrand</label>
+  <select name="" id="carbrand">
+    <option value="carbrand">Audi</option>
+    <option value="carbrand">Mercerdes</option>
+    <option value="carbrand">BMW</option>
+    <option value="carbrand">Any other</option>
+  </select><br>
+
+  <label for="carage" >Car Age</label>
+  <input type="number" name="" id="carage" required><br>
+
+  <label for="dop">Date of Purchase</label>
+  <input type="date" name="" id="dop" required><br>
+
+  <label for="password">Password</label>
+  <input type="password" name="" id="password" required><br>
+
+  <input type="Submit" value="Submit" id="btn">
+
+
+
+</form>
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
